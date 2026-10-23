@@ -12,7 +12,6 @@
     <a href="#tw-build"><img src="docs/assets/build.svg" width="128" height="38" alt="Сборка"></a>
     <a href="#tw-help"><img src="docs/assets/help.svg" width="132" height="38" alt="Помощь"></a>
   </p>
-  <p><sub>Без StreamOverlay · Без аккаунта на сайте · Node.js уже в комплекте</sub></p>
 </div>
 
 ---
