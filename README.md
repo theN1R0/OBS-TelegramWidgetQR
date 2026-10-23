@@ -7,7 +7,7 @@
   <p>Каналы, публикации и QR-код с управлением прямо в OBS Studio.</p>
   <p><img src="docs/assets/platforms.svg" width="472" height="30" alt="Windows x64 · проверено в OBS 32.2.2 · GPL-2.0-or-later"></p>
   <p>
-    <a href="#tw-install"><img src="docs/assets/install.svg" width="150" height="38" alt="Установка"></a>
+    <a href="https://github.com/theN1R0/OBS-TelegramWidgetQR/releases/latest"><img src="docs/assets/install.svg" width="150" height="38" alt="Установка — скачать последний релиз"></a>
     <a href="#tw-usage"><img src="docs/assets/guide.svg" width="185" height="38" alt="Как пользоваться"></a>
     <a href="#tw-build"><img src="docs/assets/build.svg" width="128" height="38" alt="Сборка"></a>
     <a href="#tw-help"><img src="docs/assets/help.svg" width="132" height="38" alt="Помощь"></a>
@@ -53,7 +53,9 @@
 
 ## Установка
 
-Нужен **готовый ZIP с плагином**, а не архив исходного кода. Финальная сборка в этом проекте находится в `package/TelegramWidget-0.1.0-Windows-x64-Final.zip`. Сборочные архивы не хранятся в Git и распространяются отдельно.
+Скачайте готовый пакет Windows x64 со страницы **[последнего релиза](https://github.com/theN1R0/OBS-TelegramWidgetQR/releases/latest)**. Все опубликованные версии доступны в **[GitHub Releases](https://github.com/theN1R0/OBS-TelegramWidgetQR/releases)**.
+
+В разделе **Assets** выберите `TelegramWidget-0.1.0-Windows-x64-Final.zip` для версии 0.1.0 или соответствующий установочный ZIP более новой версии. Архивы `Source code (zip)` и `Source code (tar.gz)` содержат исходники, а не готовый плагин.
 
 > [!IMPORTANT]
 > Копируйте обе папки — `data` и `obs-plugins`. Одной DLL недостаточно для работы плагина.
@@ -128,7 +130,7 @@
 
 ## Обновление и настройки
 
-Для обновления закройте OBS и скопируйте `data` и `obs-plugins` из нового полного пакета поверх старых файлов.
+Для обновления скачайте полный пакет из **[последнего релиза](https://github.com/theN1R0/OBS-TelegramWidgetQR/releases/latest)**, закройте OBS и скопируйте `data` и `obs-plugins` поверх старых файлов.
 
 Настройки и кэш хранятся отдельно от установки, в `plugin_config\telegram-widget` внутри папки конфигурации OBS. В обычной установке Windows это `%APPDATA%\obs-studio\plugin_config\telegram-widget`; у portable-версии конфигурация находится рядом с самой OBS.
 
