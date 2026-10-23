@@ -1,0 +1,36 @@
+{
+  "copiedAt": "2026-10-23",
+  "description": "Independent snapshots. StreamOverlay is never imported, modified or required at runtime.",
+  "files": [
+    {
+      "source": "StreamOverlay/frontend/src/components/TelegramWidget.vue",
+      "destination": "frontend/src/components/TelegramWidget.vue",
+      "sha256": "daaa08cf1bffa555c2bd100c41e599065b2f92c361a875673955f3bed9b364ce"
+    },
+    {
+      "source": "StreamOverlay/frontend/src/components/TelegramTitle.vue",
+      "destination": "frontend/src/components/TelegramTitle.vue",
+      "sha256": "73c4dc2917b4bad1f4eff3379c6f3f415581a1a6d90acd127a6798f44b479fe7"
+    },
+    {
+      "source": "StreamOverlay/frontend/src/lib/telegram-excerpt.js",
+      "destination": "frontend/src/lib/telegram-excerpt.js",
+      "sha256": "6cb8b965a5906f6a07bedb6535c64a2548180eb7243febcc85395f6f6adf68c4"
+    },
+    {
+      "source": "StreamOverlay/frontend/src/assets/telegram-pattern.svg",
+      "destination": "frontend/src/assets/telegram-pattern.svg",
+      "sha256": "118add53487c02aaf5b5ab9f69380fa06717deb10492e14aaa487e3c62806ad4"
+    },
+    {
+      "source": "StreamOverlay/backend/src/telegram-preview.js",
+      "destination": "service/vendor/telegram-preview.js",
+      "sha256": "62b85fbdff6ec9c0c8319ae566210991c56232d8b38c9d04e9a53d1b762e2e97"
+    },
+    {
+      "source": "StreamOverlay/backend/src/telegram-accent.js",
+      "destination": "service/vendor/telegram-accent.js",
+      "sha256": "bbb0624cc3237fbcf43425065933591d2359bab95bf3c7d33035b0953feb6e76"
+    }
+  ]
+}

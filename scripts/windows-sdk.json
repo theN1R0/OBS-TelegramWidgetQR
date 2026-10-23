@@ -1,0 +1,28 @@
+{
+  "obsVersion": "31.1.1",
+  "cmakeVersion": "3.31.8",
+  "generator": "Visual Studio 17 2022",
+  "source": "https://github.com/obsproject/obs-plugintemplate/blob/master/buildspec.json",
+  "archives": [
+    {
+      "name": "obs-source",
+      "url": "https://github.com/obsproject/obs-studio/archive/refs/tags/31.1.1.zip",
+      "file": "obs-studio-31.1.1.zip",
+      "sha256": "2c8427c10b55ac6d68008df2e9a3e82f4647aaad18f105e30d4713c2de678ccf"
+    },
+    {
+      "name": "prebuilt",
+      "url": "https://github.com/obsproject/obs-deps/releases/download/2025-07-11/windows-deps-2025-07-11-x64.zip",
+      "file": "windows-deps-2025-07-11-x64.zip",
+      "sha256": "c8c642c1070dc31ce9a0f1e4cef5bb992f4bff4882255788b5da12129e85caa7",
+      "destination": "obs-deps-2025-07-11-x64"
+    },
+    {
+      "name": "qt6",
+      "url": "https://github.com/obsproject/obs-deps/releases/download/2025-07-11/windows-deps-qt6-2025-07-11-x64.zip",
+      "file": "windows-deps-qt6-2025-07-11-x64.zip",
+      "sha256": "0e76bf0555dd5382838850b748d3dcfab44a1e1058441309ab54e1a65b156d0a",
+      "destination": "obs-deps-qt6-2025-07-11-x64"
+    }
+  ]
+}

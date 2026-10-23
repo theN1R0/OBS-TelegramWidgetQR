@@ -1,0 +1,63 @@
+# Dependencies and JavaScript caches
+node_modules/
+.npm/
+.cache/
+.vite/
+.eslintcache
+*.tsbuildinfo
+
+# Generated UI, SDK downloads, build tools, portable OBS and distributions
+/dist/
+/build/
+/package/
+/out/
+/coverage/
+/cmake-build-*/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/install_manifest.txt
+/CTestTestfile.cmake
+/Testing/
+CMakeUserPresets.json
+*.zip
+*.7z
+
+# Compiled native output
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.o
+*.lib
+*.exp
+*.a
+*.so
+*.dylib
+
+# Local widget state, credentials, logs and temporary files
+.data/
+access.key
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.*.example
+logs/
+*.log
+*.dmp
+*.tmp
+*.bak
+
+# Local IDE settings and OS metadata
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.VC.db
+*.VC.VC.opendb
+.DS_Store
+Thumbs.db
+Desktop.ini

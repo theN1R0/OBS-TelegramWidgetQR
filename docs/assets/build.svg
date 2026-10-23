@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="38" viewBox="0 0 128 38" role="img" aria-label="Сборка">
+  <title>Сборка</title>
+  <defs><linearGradient id="surface" x2="0" y2="1"><stop stop-color="#212934"/><stop offset="1" stop-color="#161b22"/></linearGradient></defs>
+  <rect x=".5" y=".5" width="127" height="37" rx="8" fill="url(#surface)" stroke="#3d4856"/>
+  <g fill="none" stroke="#7dd3fc" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m20 13-6 6 6 6m8-12 6 6-6 6m-3-15-3 18" /></g>
+  <text x="43" y="24" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#f0f6fc">Сборка</text>
+</svg>
